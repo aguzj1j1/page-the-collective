@@ -54,7 +54,7 @@ section{
 .boxIzquierda{
     background-image: url(images/formaIzquierda.png);
     width: 100%;
-    height: 25vh;
+    height: 230px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -65,7 +65,7 @@ section{
 .boxCentro{
     background-image: url(images/formaCentral.png);
     width: 100%;
-    height: 25vh;
+    height: 230px;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
@@ -76,8 +76,9 @@ section{
 .boxInferior{
     background-image: url(images/FormaDerecha.png);
     width: 100%;
-    height: 25vh;
-    background-position: center;
+    height: 230px;
+    margin-left: 13px;
+    background-position: right;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
@@ -90,7 +91,7 @@ section{
 }
 #footer{
     background-color: #6c757d;
-    height: 98px;
+    height: 82px;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -100,19 +101,29 @@ footer address{
 }
 @media(min-width: 300px) and (max-width: 450px){
     body{
-        width: 194%;
+        width: 100%;
+        height: auto;
+        
     }
     section{
         background-image: none;
         width: 100%;
-        height: 115vh;
+        height: auto;
+        margin-top: 0;
+        margin-bottom: 0.1rem;
     }
-    .contentBoxTitulo a img {
-        width: 60%;
+    .contentBox{
+        margin-left: 0.7rem;
+        margin-top: 1rem;
     }
-    #mktIMG{
-        width: 80%;
+    .contentBox h6 {
+        font-size: 12px;
+    }    
+    .contentBox .button-black{
+        margin-right: 2rem;
+        padding: 0.3rem;
     }
+ 
     #contentBoxH1 {
         font-size: 67px;
     }
@@ -120,7 +131,7 @@ footer address{
         font-size: 22.5px;
     }
     #footer{
-        height: 143px;
+        height: 191px;
     }
 
 }
