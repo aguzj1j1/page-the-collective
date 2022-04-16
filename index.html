@@ -8,50 +8,97 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
-    <!-- <title>Dashboard control actitud MTB - Agustin Gonzalez - dev Front end</title> -->
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="indexES.css">
+        <!-- <title>Dashboard control actitud MTB - Agustin Gonzalez - dev Front end</title> -->
 </head>
 
 <body>
     <header>
-            <div class="container">
-                <div class="row mt-2 mb-2 align-items-center">
-                    <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2">
-                        <a href="#"><img src="images/logo.png" alt="Logo principal"></a>
-                        <ul class="navDerecha mt-3 align-items-center d-md-none">
-                            <li><a href="index.html">ESPAÑOL</a></li>
-                            <li><a href="indexEN.html">ENGLISH</a></li>
-                        </ul>
+            <div class="container d-md-none">
+                <div class="row mt-2 mb-2 align-items-center" id="vistaMobileIMG">
+                    <div class="col-12 text-center">
+                        <a href="#" class=" "><img id="logo" src="images/logo.png" alt="Logo principal"></a>
+                        <h5 id="tituloHome" class="mt-3 d-md-none">AGENCIA DE MARKETING & MEDIOS</h5>
                     </div>
-                    <div class="col-12 d-md-none">
-                        <div class="contentBox d-flex">
-                            <h6 class="mt-3">AGENCIA DE MARKETING & MEDIOS</h6>
-                            <a href="#" class="button-black">CONTACTO</a>
-                        </div>
-                       
+                </div>
+            </div>
+            <div class="container-fluid d-none d-md-block" >
+               
+                <div class="row mt-4 mb-4 align-items-center">
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4" >
+                        <a href="#" id="imgDSKTP" class="d-none d-md-block"><img id="logoDSKTP" src="images/Logo-TC-96dpi.png" alt="Logo principal"></a>
                     </div>
-                 
 
-                    <div class="col-12 d-none col-sm-10 col-md-10 col-lg-10 col-xl-10 d-md-flex row align-items-center">
-                            <div class="col-6 col-md-10">
+                    <div class="col-12 d-none col-sm-8 col-md-8 col-lg-8 col-xl-8 d-md-flex row align-items-center ">
+                        <div class="contentBox d-md-none">
+                            <a href="mailto:info@thecollectiveagency.net" class="button-black">CONTACTO</a>
+                            <ul class="navDerecha mt-3 align-items-center ">
+                                <li><a href="index.html">ESPAÑOL</a></li>
+                                <li><a href="indexEN.html">ENGLISH</a></li>
+                            </ul>
+                        </div>
+                            <div class="col-6 col-md-11">
                                 <div class="contentBox  ">
-                                    <h6 class="mt-3">AGENCIA DE MARKETING & MEDIOS</h6>
-                                    <a href="#" class="button-black">CONTACTO</a>
+                                    <h4 id="textTituloDSKTP" class="mt-3">AGENCIA DE MARKETING & MEDIOS</h4>
+                                    <a href="mailto:info@thecollectiveagency.net" class="button-black">CONTACTO</a>
                                 </div>
                             </div>
-                            <div class="col-6  col-md-2">
-                                <ul class="navDerecha mt-3 ">
-                                    <li><a href="#">ESPAÑOL</a></li>
-                                    <li><a href="#">ENGLISH</a></li>
+                            <div class="col-6  col-md-1">
+                                <ul class="navDerecha mr-2 ">
+                                    <li>
+                                        <a href="index.html">ES</a>
+                                    </li>
+                                    <li>
+                                        <a href="indexEN.html">EN</a>
+                                    </li>
                                 </ul>
                             </div>
                     </div>
                 </div>
             </div>
     </header>
-    <section >
+    <section class="d-none d-md-block bg-white mt-5">
         <div class="container">
+            <div class="row">
+                <div class="col-md-12"></div>
+            </div>
+        </div>
+    </section>
+    <section class="d-md-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 boxConstruction text-center">
+                    <h5 class="text-white  ">SITIO EN CONSTRUCCIÓN</h5>
+                </div>
+                <div class="col-12" id="navBG">
+                        <nav class="navbar navbar-expand-lg navbar-light ">
+                            <a href="mailto:info@thecollectiveagency.net" class="button-black">CONTACT</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item active">
+                                     <a class="nav-link" href="index.html">ES</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="indexEN.html">EN</a>
+                                    </li>
+                                </ul>
+                            </div>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="bodyCompleto" >
+
+        <div class="container  d-md-block">
             <div class="row  d-md-none ">
+                <div class="col-12 d-md-none">
+                   
+                </div>
                 <div class="col-12 ">
                     <div class="boxIzquierda">
                             <h1 class="text-white mt-3 mr-4">Tecnología</h1>
@@ -59,32 +106,37 @@
                 </div>
                 <div class="col-12">
                     <div class="boxCentro">
-                        <h1 class="text-white">Inversión en MKT</h1>
+                        <h1 class="text-white">Inversion en MKT</h1>
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="boxDerecha">
-                        <h1 class="text-white mt-3">MKT de Destino</h1>
+                        <h1 class="text-white mt-3">Mkt de Destino</h1>
                     </div>
                 </div>
-                <div class="col-12 ">
+                <!-- <div class="col-12 ">
                     <div class="boxInferior text-right mb-1 ">
                         <div class="parrafo text-center">
-                            <h6 class="text-white ">NUESTRO SITIO ESTÁ </h6>
-                            <H1 class="text-white">EN CONSTRUCCIÓN</H1>
-                            <h6 class="text-white">QUEDATE EN CONTACTO</h6>
+                            <h6 class="text-white ">OUR SITE IS </h6>
+                            <H1 class="text-white">UNDER</H1>
+                            <H1 class="text-white">CONSTRUCTION</H1>
+                            <h6 class="text-white">STAY IN TOUCH</h6>
                         </div>
                        
                     </div>
-                </div>
+                </div> -->
             </div>
+            
+        </div>
+        <div class="container-fluid" id="bgSection1">
+
         </div>
 
     </section>
     <footer id="footer">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row justify-content-start ">
-                <div class="col-12 col-md-4 col-lg-4 col-xl-4">
+                <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
                     <address>2022 The Collective - All rights reserved</address>
                 </div>
                 <!-- <div class="col-12 col-md-4 col-lg-4 col-xl-4">
