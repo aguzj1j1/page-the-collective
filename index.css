@@ -85,7 +85,7 @@ header {
     list-style: none;
 }
 .boxResponsive li{
-    margin: 0.2rem;
+    margin-left: 5px;
 }
 .boxResponsive li a{
     color: black;
